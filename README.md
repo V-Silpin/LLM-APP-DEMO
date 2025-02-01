@@ -13,6 +13,7 @@ This is a simple rag chatbot.
 ## Prerequisites
 
 - Basic knowledge of Git & Github
+- MongoDB or ChromaDB
 - FastAPI
 - Python
 - Pipenv
