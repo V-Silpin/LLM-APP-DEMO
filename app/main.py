@@ -1,3 +1,4 @@
+"""
 from db.vector import Vectorize
 
 obj = Vectorize()
@@ -16,3 +17,16 @@ if flag:
     print("Embedding & storage done")
 else:
     print("Operation Failed")
+"""
+
+from bot.query import Bot
+
+obj = Bot()
+
+obj.retrieval()
+
+query = input("User query :- ")
+
+answer = obj.response(query=query)
+
+print(answer)
